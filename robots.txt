@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nontradescement.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Allow important pages
+Allow: /
+Allow: /about-us.html
+Allow: /contact-us.html
+Allow: /blog.html
+Allow: /style.css
+Allow: /script.js
+Allow: /assets/
